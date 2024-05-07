@@ -12,7 +12,7 @@ send "<CREATE_A_PASSWORD>\r"
 
 # Expect the confirmation prompt for the spending password
 expect "Confirm the spending password of the wallet"
-send "<CREATE_A_PASSWORD>\r"
+send "<SAME_PASSWORD>\r"
 
 # Wait for the command to finish
 expect eof
